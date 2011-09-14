@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="src" path="phpclasses/comum/banco"/>
+	<buildpathentry kind="src" path="phpclasses/comum/fpdf"/>
+	<buildpathentry kind="src" path="phpclasses/comum/sessao"/>
+	<buildpathentry kind="src" path="phpclasses/comum/tela"/>
+	<buildpathentry kind="src" path="phpclasses/comum/util"/>
+	<buildpathentry kind="src" path="phpclasses/interface/basico"/>
+	<buildpathentry kind="src" path="phpclasses/negocio/basico"/>
+	<buildpathentry kind="src" path="sistema"/>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+</buildpath>
