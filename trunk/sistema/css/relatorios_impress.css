@@ -1,0 +1,51 @@
+/* ====== GERAL ====== */
+/**			{ margin:0; padding:0;}*/
+body 		{ font: 0.6em Verdana, Geneva, sans-serif;}
+p			{ padding:0.5em 0 0 0; margin:0 0 0 1em;text-align:left;}
+
+/* ====== Densidade por Cargo ====== */
+.txt_red		{ color:#F00; line-height:40px;}
+.center			{ text-align:center;}
+.pdg05			{ padding:0 0 0 0.5em;}
+
+.cabecalho_box	{	text-align:center; margin:0 auto; padding:0.5em 0 1.5em 0; 
+					font:2em Georgia, "Times New Roman", Times, serif;	
+					}
+.cabecalho		{ width:20em; text-align:center; /*background:#999;*/}
+.cabecalho img	{ float:left;}
+
+.tbl_padrao		{ margin-top:15px; background-color:#FFF; text-align:center;}
+.tbl_padrao tr.cor-sim td		{ /*background-color:#E6E6E6;*/ height:3.5em; }
+/*.borda_left		{ border-left:#999 solid 1px;}*/
+
+.coluna-esq		{ text-align:left;}
+
+.tbl_total, .titulo		{ font-size:1.4em; font-weight:bold; }
+.borda			{ }
+
+
+/* EU ESTIVE AQUI ZOANDO ESTE ARQUIVO */
+td {
+	border-top:1px solid #333;
+	border-right:1px solid #333;
+}
+table {
+	border:1px solid #333;
+	border-top:none;
+	border-right:none;
+}
+.tit_rel {
+	font:3em Tahoma, Helvetica, sans-serif;
+	padding:15px;
+	border-right:none;
+	text-align:justify !important;
+}
+.sub_tit {
+	font-size:11px;
+}
+.traco {
+	color:#CCC;	
+}
+.espaco_top {
+	padding-top:10px;	
+}

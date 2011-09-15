@@ -1,0 +1,72 @@
+body {
+	background:#D2D9E3;
+	font:16px normal Verdana, Geneva, sans-serif;
+	text-align:left;
+}
+select {
+	cursor:pointer;	
+}
+h1 {
+	font-size:1.5em;
+	text-align:center;
+	text-shadow:1px 1px 1px #fff;
+}
+h2 {
+	color:red;
+	font-size:14px;
+	text-align:center;
+	text-shadow:1px 1px 1px #fff;
+}
+p {
+	margin:0;	
+}
+table {
+	border:1px dotted #999;	
+	background:#CCD5E3;
+	padding:15px;
+}
+td {
+	font-weight:bold;
+	text-shadow:1px 1px 1px #fff;
+}
+input.botao{
+  color:#5779AF;
+  font-weight:bold;
+  background:#E9E9E2;
+  border:1px solid #666;
+  width:auto;
+  padding:0px 3px;
+  height:30px;
+}
+input.botao:hover{
+  color: #333 !important;
+  cursor:pointer;
+  text-shadow:1px 1px 1px #fff;
+}
+.traco {
+	color:#999;	
+}
+.alerta {
+	color:#F00;
+	font-size:12px;
+	text-shadow:none !important;
+	font-style:normal;
+	font-weight:normal;
+}
+.label_short {
+	font-size:12px;
+	text-shadow:none !important;
+	font-style:normal;
+	font-weight:normal;
+}
+.input_datas {
+	margin-bottom:5px;
+	width:100px;
+}
+.calendar {
+	height:22px;
+	width:22px;
+	border:none;
+	background:url(../imagens/_logos/calendar.png) no-repeat;
+	cursor:pointer;
+}
