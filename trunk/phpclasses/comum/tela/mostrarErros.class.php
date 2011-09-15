@@ -59,8 +59,8 @@
         {
             if ( is_array($this->erros) ) {
                 echo "<div align = 'center'>";
-                echo "<p style='{text-align: center; color:#FF0000; width: ".$this->largura."px;}'>".$this->titulo."</p>";
-                echo "<p style='{text-align: ".$this->alinhamentoErro."; color:#000000; width: ".$this->largura."px;}'>";
+                echo "<p style='text-align: center; color:#FF0000; width: ".$this->largura."px;'>".$this->titulo."</p>";
+                echo "<p style='text-align: ".$this->alinhamentoErro."; color:#000000; width: ".$this->largura."px;'>";
                 foreach($this->erros as $id => $msgErro) {
                     echo "<br>".$msgErro;
                 }

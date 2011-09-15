@@ -1,0 +1,562 @@
+BODY {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+color:#000;
+/*
+SCROLLBAR-FACE-COLOR: #CCCCCC;
+SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF;
+SCROLLBAR-SHADOW-COLOR: #FFFFFF;
+SCROLLBAR-DLIGHT-COLOR: #FFFFFF;
+SCROLLBAR-ARROW-COLOR: #FFFFFF;
+SCROLLBAR-TRACK-COLOR: #FFFFFF;
+SCROLLBAR-DARKSHADOW-COLOR: #CCCCCC;
+*/
+background-color:#D2D9E3;
+
+
+}
+/*
+// ECECAA cor amarela
+// F0EA96 amarelo titulo
+//azul mais escuro DFE7EE
+//azul mais escuro 8193B1
+//azul mais claro  EDF1F6
+//mais claro dfe7ee
+B1CFE8
+cor botao  7088AE
+*/
+
+BODY, FORM {
+margin-top : 0px;
+margin-left : 0px;
+margin-right : 0px;
+margin-bottom : 0px;
+}
+
+A:link 			{    color : #000000;}
+A:visited 		{    color : #000000;}
+A:hover 		{    color : #aa2f2a;}
+A:active		{    color : #aa2f2a;}
+.corFundo 		{    background-color: #D2D9E3;}
+.tabela-menu 	{    border: 0px none;    background: url(../imagens/fundoc.jpg) repeat-x;    }
+.linha-menu 	{    border: 0px none;    background-color: #EEF2F7;}
+TD {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 11px;color : #333333;}
+.cabecalhoDados{    border: 0px solid #000000;}
+.cabecalhoTitulos{    border: 1px solid #000000;    background-color:#CCCCCC;    font-weight:bold;}
+.tabelaDados{    border: 1px solid #000000;}
+.corpoDados TD {    border-bottom: 1px solid #000000;}
+.corpoDados TD {    border-bottom: 1px solid #000000;}
+.titulo_black {    font-family: Verdana, Arial, Helvetica, sans-serif;    font-size: 13px;    font-weight: bold;    color: #000000;}
+.titulo_mensagens {
+    background-color: #90b4ef;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+.titulo_mensagens_bold {
+    background-color: #90b4ef;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.barra_menu {
+    background-color: #EEF2F7;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.mens_padrao {
+    font-size: 12px;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-weight: normal;
+    text-decoration: none;
+    background-color: #fcfcef;
+}
+
+.mens_padrao_bold {
+    font-size: 11px;
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fcfcef;
+}
+
+.mensagem_erro {
+    background-color: #AA0000 ;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: bold
+}
+
+.mens_nlida {
+    background-color: #DAF1D3;
+    font-weight: bold
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.mens_apagada {
+    background-color: #FCFCEF ;
+    text-decoration: line-through;
+    font-style: italic
+}
+
+.Aviso {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold
+}
+
+.AvisoVermelho {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold ;
+    color: #FF0000
+}
+
+.botao {
+    border: 1px #000000 solid;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px
+}
+
+.rodape {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #666666;
+    text-decoration: none;
+}
+
+.table_teste {
+    background: url(../images/geral.gif) no-repeat;
+    color: #5779AF;
+    /*//color: #990000;*/
+    text-align: left;
+    padding-left: 10px;
+    height: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 0 2px 0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.corpo_titulo {
+    font-size: 11px;
+    color: #333333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.corpo_texto {
+    font-size: 11px;
+    color: #333333;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    line-height: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+
+/* ======= ESTILOS DEFINIDOS PARA PACKAGE_FORM ========= */
+
+form.cadastro
+{
+    border   :     0;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #D2D9E3;
+}
+
+TABLE.cadastro
+{
+    border   :     0;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #CCD5E3;
+}
+
+TD.cadastro
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #CCD5E3;
+}
+
+TABLE.cadastro_borda
+{
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #FFFFFF;
+    border: 1px solid #000000;
+}
+
+TD.cadastro_cabecalho
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #CCD5E3;
+}
+
+TD.mostraCorFundo{
+    background-color: transparent;
+}
+
+FONT.TITULO_OBRIGATORIO{
+    color   :#FF0000;
+    font-size   :11px;
+}
+
+INPUT.XP{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color: #333333;
+    font-family: arial;
+    font-size:     9pt;
+}
+
+/*Define o elemento LABEL (class TEXT/LABEL) da package_form*/
+LABEL.XP{
+    color:#333333;
+    font-family:Tahoma;
+    font-size:12px;
+}
+
+LABEL.XPTITLE{
+    color:#343434;
+    font-family:Tahoma;
+    font-size:16px;
+}
+
+/*Define o elemento INPUT (RADIO, CHECKBOX) da package_form*/
+INPUT.IGNORE{
+    color:#333333;
+}
+
+INPUT.BUTTON{
+  /*//color: #5779AF;*/
+  color: #5779AF;
+  /*//color: #990000;*/
+  font:bold 11px Verdana, Geneva, sans-serif;
+  text-align: center;
+  width: auto;
+  background: url(../imagens/button_bg.png) repeat-x;
+  padding: 0px 3px;
+  line-height: 16px;
+  height: 24px;
+  margin: 2px;
+}
+
+INPUT.BUTTON_ABAS{
+  color: #5779AF;
+  font-weight: bold;
+  background-color: #E9E9E2;
+  text-indent: 1em;
+  border:1px solid #666;
+}
+INPUT.BUTTON_ABAS:hover{
+  color: #333 !important;
+  cursor:pointer;
+  text-shadow:1px 1px 1px #fff;
+}
+
+SELECT.XP {
+    border-width:1px;
+    border-style:dotted;
+    color:#333333;
+    font-family:Arial;
+}
+
+TEXTAREA.XP  {
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:#333333;
+    font-family:Arial;
+    font-size:     9pt;
+}
+
+TEXTAREA.XPLOCK  {
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    background-color: #F0F0F0;
+    color:#333333;
+    font-family:Arial;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) quando bloqueado da package_form*/
+INPUT.XPLOCK{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    background-color: #F0F0F0;
+    color:#333333;
+    font-family:Arial;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) da package_form, em UPPERCASE*/
+INPUT.XPUPLOCK{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:#333333;
+    font-family:Arial;
+    text-transform:uppercase;
+}
+
+/* ======= ESTILOS DEFINIDOS PARA CLASS_TABLE ========== */
+
+FONT.class_table {
+    font-size: 11px;
+    font-family: tahoma;
+}
+
+FONT.rodape_classTable {
+    font-size: 9px;
+    font-family: tahoma;
+}
+
+FONT.titulo_classTable {
+    font-size: 13px;
+    font-family: tahoma;
+}
+
+FONT.titCol_classTable {
+    font-size: 11px;
+    font-family: tahoma;
+    color:363635;
+}
+
+.REPORT_MAIN_BORDER {
+    border-style:solid;
+    border-width:1px;
+    border-color:#000000;
+}
+
+.REPORT_CELL_BORDER {
+    border-style:solid;
+    border-width:1px;
+    border-color:#D2D9E3;	
+}
+
+/* ======= ESTILOS DEFINIDOS PARA PACKAGE_ABAS ========= */
+.aba_nao_selecionada {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000033;
+    background-color: #CFCFCF;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.aba_selecionada {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tb-conteudo {
+    /*border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;*/
+}
+
+.conteudo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000033;
+    background-color: transparent;
+    padding: 5px;
+    overflow: auto;
+}
+
+.conteudo td {
+    background-color: transparent;
+}
+
+/* ========= ESTILOS COMUNS ============================ */
+
+@media print {
+    .naoVisivelImpressao {
+        display: none;
+    }
+
+    .visivelImpressao {
+        display: run-in;
+    }
+}
+
+
+/*Inserido por HENRIQUE */
+/*CSS para montar o aviso de processamento do AJAX */
+#barra_progresso
+{
+    FONT-SIZE: 1px;
+    LEFT: 0px;
+    WIDTH: 1px;
+    POSITION: relative;
+    TOP: 1px;
+    HEIGHT: 5px;
+    BACKGROUND-COLOR: #5779AF;
+    /*//BACKGROUND-COLOR: #990000;*/
+	BORDER: 0px solid black;
+}
+
+#text
+{
+	BACKGROUND-COLOR:transparent;
+	BORDER:0PX;
+	FONT-SIZE: 10px;
+	POSITION:relative;
+	TEXT-ALIGN: center;
+}
+
+#carregador_pai
+{
+    WIDTH: 98%;
+    POSITION: absolute;
+    TOP: 30%;
+    TEXT-ALIGN: center;
+	Z-INDEX: 1000;
+}
+
+#carregador_fundo
+{
+    FONT-SIZE: 1px;
+    LEFT: 8px;
+    WIDTH: 111px;
+    POSITION: relative;
+    TOP: 8px;
+    HEIGHT: 7px;
+    BACKGROUND-COLOR: #FFFFFF;
+	BORDER: 1px solid black;
+}
+
+#carregador
+{
+    BORDER: #6a6a6a 2px solid;
+    PADDING-RIGHT: 0px;
+    DISPLAY: block;
+    PADDING-LEFT: 0px;
+    FONT-SIZE: 11px;
+    PADDING-BOTTOM: 16px;
+    MARGIN: 0px auto;
+    WIDTH: 130px;
+    COLOR: #000000;
+    PADDING-TOP: 10px;
+    FONT-FAMILY: Tahoma, Helvetica, sans;
+    BACKGROUND-COLOR: #CCD5E3;
+    /* adicionado para teste */
+    POSITION: absolute;
+    TOP: 30%;
+    LEFT: 42%;
+    TEXT-ALIGN: center;
+    Z-INDEX: 1000;
+}
+/* ADICIONADO POR ROBERTO, DIA 05/02/2010 */
+acronym {
+cursor:help;
+}
+#img_loading {
+display:none;
+background:url(../../../../portal_web/imagens/loading.gif) center no-repeat; /* server local */
+/*background:url(../imagens/loading.gif) center no-repeat;*/ /* server remoto */
+width:auto;
+height:48px;
+margin-top:10px;
+}
+
+.link_termo_abertura { 
+	width:20px;
+	height:20px;
+	padding:5px;
+	background:#E9E9E2;
+	font:11px Verdana, Geneva, sans-serif;
+	border:1px solid #666;
+	text-decoration:none;
+	font-weight:bold;
+	color:#5779AF !important;
+}
+.link_termo_abertura:hover {
+	color:#333 !important;
+	border:1px solid #669;
+	text-shadow:1px 1px 1px #fff;
+	}
+#confirma_inscricao {
+	position:absolute;
+	top:24%;
+	left:23%;
+	width:605px;
+	height:600px;
+	border:1px solid #333;
+	background:#fff;
+	text-align:left;
+	display:none;
+	}
+#confirma_inscricao h1, p {
+	font:bold 14px Arial, Verdana;
+	}
+#confirma_inscricao h1,h2 {
+	text-align:center;
+	}
+#confirma_inscricao span {
+	color:#F00;
+	}
+#confirma_inscricao p {
+	margin-left:140px;
+	}
+#confirma_inscricao h2 {
+	width:100%;
+	height:auto;
+	}
+#confirma_inscricao input {
+	background:#E9E9E2;
+	border:1px solid #666;
+	color:#069;
+	margin:3px;
+	height:30px;
+	cursor:pointer;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #fff;
+	}
+#confirma_inscricao input:hover {
+	color:#333;
+}

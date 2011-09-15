@@ -3,7 +3,7 @@ GLOBAL $SISCONF;
 GLOBAL $PHP_SELF;
 
 $PHP_SELF = $_SERVER["PHP_SELF"];
-$host = "http://localhost/framework_base/sistema/";
+$host = "http://10.10.10.33:82/framework_base/sistema/";
 $path = "D:/DESENVOLVIMENTO_LOCAL/framework_base/sistema/";
 
 $SISCONF['SIS']['PATH_SGF'] = "/var/www/sgf/";

@@ -86,7 +86,7 @@ if (empty($SISCONF['SESSAO']['USUARIO']['ID'])) {
         "\n		</tr>".
         "\n		<tr>".
         "\n			<td>".
-        "\n				<table style='{width: 690px; height: 239px}' cellspacing=0 cellpadding=0 align=center border=0>".
+        "\n				<table style='width: 690px; height: 239px' cellspacing=0 cellpadding=0 align=center border=0>".
 		"\n					<tbody>".
 		"\n						<tr>".
 		"\n							<td>".

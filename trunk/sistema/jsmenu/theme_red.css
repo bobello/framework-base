@@ -1,0 +1,101 @@
+/*EFEBDE*/
+.ThemeMiniBlackMenu {
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    PADDING-BOTTOM: 0px;
+    CURSOR: default;
+    COLOR: #000000;
+    font-size: 9px;
+    FONT-FAMILY: arial, verdana, sans-serif;
+    BACKGROUND-COLOR: #EEF2F7;
+}
+
+.ThemeMiniBlackSubMenuTable {
+    border: 2px outset white;
+    PADDING-RIGHT: 0px;
+    PADDING-TOP: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    font-size: 9px;
+    CURSOR: default;
+    COLOR: #000000;
+    FONT-FAMILY: arial, verdana, sans-serif;
+    BACKGROUND-COLOR: #EEF2F7;
+    BORDER-TOP: black 1px solid;
+}
+
+.ThemeMiniBlackMainFolderText {
+    font-size: 9px;
+}
+
+.ThemeMiniBlackMainItemText {
+    font-size: 9px;
+}
+
+.ThemeMiniBlackSubMenu {
+    BORDER-RIGHT: 0px;
+    PADDING-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    PADDING-LEFT: 0px;
+    Z-INDEX: 100;
+    VISIBILITY: hidden;
+    PADDING-BOTTOM: 0px;
+    BORDER-LEFT: 0px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: 0px;
+    POSITION: absolute;
+    font-size: 9px;
+}
+.ThemeMiniBlackMenuSplit {
+    BORDER-TOP: #aa2f2a 1px solid;
+    MARGIN-TOP: 1px;
+    MARGIN-BOTTOM: 1px;
+    OVERFLOW: hidden;
+    HEIGHT: 1px;
+    font-size: 9px;
+}
+.ThemeMiniBlackMenuVSplit {
+    BORDER-RIGHT: none;
+    BORDER-LEFT: none;
+    MARGIN: 0px;
+    OVERFLOW: hidden;
+    WIDTH: 1px;
+    font-size: 9px;
+}
+
+.ThemeMiniBlackSubMenuTable TD {
+    WHITE-SPACE: nowrap;
+    font-size: 9px;
+}
+.ThemeMiniBlackMainItem {
+    WHITE-SPACE: nowrap;
+    font-size: 9px;
+}
+
+.ThemeMiniBlackMainItemHover {
+    WHITE-SPACE: nowrap;
+    COLOR: #aa2f2a;
+    font-size: 9px;
+}
+
+.ThemeMiniBlackMenuItem {
+    WHITE-SPACE: nowrap;
+    font-size: 9px;
+}
+
+.ThemeMiniBlackMainItemActive {
+    COLOR: #aa2f2a;
+    font-size: 9px;
+    /*font-weight: 700*/
+}
+
+.ThemeMiniBlackMenuItemHover {
+    COLOR: #aa2f2a;
+    font-size: 9px;
+    /*font-weight: 700*/
+}
+.ThemeMiniBlackMenuItemActive {
+    COLOR: #aa2f2a;
+    font-size: 9px;
+    /*font-weight: 700*/
+}

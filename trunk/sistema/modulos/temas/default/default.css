@@ -1,0 +1,613 @@
+/* unvisited links */
+A:link    { color: #3016FE; font-weight: none; text-decoration: none}
+/* visited links   */
+A:visited { color: #339084; font-weight: none; text-decoration: underline}
+/* user hovers     */
+A:hover   { color: #000000; font-weight: none; text-decoration: underline; background: #FFFA0A}
+/* active links    */
+A:active  { color: #000000; font-weight: none; text-decoration: underline; background: #FFFA0A}
+
+BODY
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-attachment: fixed
+}
+
+BODY.themeLogo
+{
+  background-image: url("/paginas/classes/logo.gif");
+  margin:           0px;
+}
+
+BODY.themePage
+{
+}
+
+BODY.themeContent
+{
+  background-color: #cfcfcf;
+
+  padding:           0px;
+
+  border:           1px solid #777777;
+  font-size:        10px;
+  font-weight:      normal;
+  color:            #335599;
+  height:           100%;
+  vertical-align:   top;
+}
+
+BODY.themeBox
+{
+  background-color: #cfcfcf;
+  padding:          0px;
+  border:           1px solid #777777;
+}
+
+BODY.boxTitle
+{
+  background-color: #335599;
+  padding:          2px;
+  font-size:        12px;
+  font-weight:      bold;
+  color:            #ffffff;
+  text-align:       center;
+}
+
+BODY.boxTitleText
+{
+  font-size:        12px;
+  font-weight:      bold;
+  color:            #ffffff;
+}
+
+BODY.boxContent
+{
+  background-image: url("/miolo/themes/default/bg2.jpg");
+  padding:          8px;
+}
+
+BODY.topMenuBox
+{
+  padding:          2px;
+  border:           1px solid #335599;
+  font-size:        12px;
+  font-weight:      bold;
+  color:            #335599;
+}
+
+BODY.listingRowHead
+{
+  background-color: #000000;
+  font-style:       oblique;
+  font-weight:      bold;
+  color:            #ffffff;
+  padding:          4pt;
+}
+
+BODY.listingRow1
+{
+  background-color: #efefef;
+
+  color:            #000000;
+}
+
+BODY.listingRow2
+{
+  background-color: #cfcfcf;
+
+  color:            #000000;
+}
+
+BODY.listingCol1
+{
+
+}
+
+BODY.listingCol2
+{
+
+}
+
+BODY.listingFooter
+{
+  background-color: #000000;
+  font-style:       oblique;
+  font-weight:      bold;
+  color:            #ffffff;
+  padding:          4pt;
+}
+
+BODY.statusBarRow
+{
+  background-color: #cccccc;
+}
+
+BODY.statusBarCell
+{
+  background-color: #efefef;
+
+  border-top:       solid #555555 1pt;
+  border-bottom:    solid #ffffff 1pt;
+  border-left:      solid #555555 1pt;
+  border-right:     solid #ffffff 1pt;
+
+  vertical-align:   top;
+
+  font-size:        10pt;
+  font-style:       oblique;
+  font-weight:      normal;
+  color:            #000055;
+  padding:          4pt;
+}
+
+BODY.currentPageNumber
+{
+  color:            #ff0000;
+  font-weight:      bold;
+}
+
+BODY.errorText
+{
+  color:            #001f3f;
+  font-weight:      bold;
+}
+
+BODY.statisticsText
+{
+  background-color: #efefef;
+
+  border-top:       solid #555555 1pt;
+  border-bottom:    solid #ffffff 1pt;
+  border-left:      solid #555555 1pt;
+  border-right:     solid #ffffff 1pt;
+
+  vertical-align:   top;
+
+  font-size:        10pt;
+  font-style:       normal;
+  font-weight:      normal;
+  color:            #000055;
+  padding:          4pt;
+}
+
+FONT.TITULO_OBRIGATORIO{
+    color   :#FF0000;
+    font-size   :11px;
+}
+
+TABLE.cadastro_old
+{
+    border: 0;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #B6D7A4;
+}
+TD.cadastro_cabecalho_old
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #B6D7A4;
+}
+TD.cadastro_old
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #BBF1B7;
+}
+
+TABLE.cadastro_borda
+{
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #FFFFFF;
+    border-top-width: 1;
+    border-right-width: 2;
+    border-bottom-width: 2;
+    border-left-width: 1;
+    border-color:  #A9C3FA;
+}
+TABLE.cadastro
+{
+    border   :     0;
+    font-size:     8pt;
+    color:         #000000;
+    /*background-color:  #E5E2D8;*/
+    background-color:    #E1E1E1;
+}
+TABLE.cadastro2
+{
+    border   :     0;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #A9C3FA;
+}
+TD.titulo
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     10pt;
+    font-weight:   bolder;
+    color:         #000000;
+    background:    #E3C478;
+}
+TD.subtitulo
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    font-weight:   bolder;
+    color:         #000000;
+    background:    #CDCDCD;
+}
+
+TD.linha2
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #C1D9FE ;
+}
+TD.linha1
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #CDCDCD;
+}
+
+TD.cadastro_cabecalho
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #E1E1E1;
+    /*background-color:    #EFEBDE;*/
+    /*background-color:    #E5E2D8; */
+    /*background-color:  #F0F0F0; */
+}
+
+TD.cadastro_cabecalho_old2
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #AAD4E1;
+}
+
+TD.cadastro
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:  #E1E1E1;
+    /*background-color:  #E5E2D8; */
+    /*background-color:    #EFEBDE; */
+}
+
+TD.cadastro_old2
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #AAD4E1;
+}
+
+TD.cadastro_old
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #A9C3FA;
+}
+
+TD
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color: white;
+}
+
+TD.rel_titulo
+{
+    font-family:   Tahoma,Arial,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background:    #0099CC;
+    font-weight:   bolder
+}
+
+TD.rel_titulo_cols
+{
+   font-family:   Tahoma,Arial,Verdana,Helvetica,Sans-Serif;
+   font-size:     6pt;
+   font-weight:   bolder;
+   color:         #000000;
+   background:    #C0C0C0;
+   text-align:    center;
+}
+
+TD.rel_linha1
+{
+   font-family:   Tahoma,Arial,Verdana,Helvetica,Sans-Serif;
+   font-size:     7pt;
+   color:         #000000;
+   background:    #FFFFFF;
+}
+
+TD.rel_linha2
+{
+   font-family:   Tahoma,Arial,Verdana,Helvetica,Sans-Serif;
+   font-size:     7pt;
+   color:         #000000;
+   background:    #F0F0F0;
+}
+
+TD.rel_total
+{
+   font-family:   Tahoma,Arial,Verdana,Helvetica,Sans-Serif;
+   font-size:     9pt;
+   font-weight:   bolder;
+   text-align:    center;
+   color:         #000000;
+   background:    #C0C0C0;
+}
+
+TABLE.rel_sub_tabela
+{
+    border   :     0;
+    cellpading:    5;
+    color:         #000000;
+    background:    #D9D1C6;
+}
+
+TABLE.menu
+{
+    border: 0;
+    font-size:     8pt;
+    font-family:   Tahoma,Arial,Helvetica,Geneva;
+    color:         #000000;
+    background:    #C1D9FE;
+}
+TABLE.download
+{
+    border: 1;
+    font-size:     10pt;
+    color:         #000000;
+}
+TD.download
+{
+    font-family:   Arial,Tahoma,Verdana,Helvetica,Sans-Serif;
+    font-size:     8pt;
+    color:         #000000;
+    background-color:    #F8DB90;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) da package_form*/
+INPUT.XP{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:green;
+    font-family:arial;
+    font-size:     9pt;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) da package_form, em UPPERCASE*/
+INPUT.XPUP{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:green;
+    font-family:Arial;
+    text-transform:uppercase;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) quando bloqueado da package_form*/
+INPUT.XPLOCK{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    background-color: #F0F0F0;
+    color:green;
+    font-family:Arial;
+}
+
+/*Define o elemento INPUT (TEXT, PASSWORD) da package_form, em UPPERCASE*/
+INPUT.XPUPLOCK{
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:green;
+    font-family:Arial;
+    text-transform:uppercase;
+}
+
+
+/*Define o elemento borda do formulário da package_form*/
+.FORMBORDER{
+    color:#CC9966;
+}
+
+/*Define o elemento LABEL (class TEXT/LABEL) da package_form*/
+LABEL.XP{
+    color:#0D3C0F;
+    font-family:Tahoma;
+    font-size:12px;
+}
+
+/*Define o elemento TITULO do formulário da package_form*/
+LABEL.XPTITLE{
+    color:#0D3C0F;
+    font-family:Tahoma;
+    font-size:14px;
+}
+
+/*Define o elemento INPUT (RADIO, CHECKBOX) da package_form*/
+INPUT.IGNORE{
+    color:green;
+}
+
+INPUT.BUTTON{
+    border-style:groove;
+    background-color: #D8D2C0;
+    color:blue;
+    font-family:Arial;
+    font-size: 10px;
+}
+
+SELECT.XP {
+    border-width:1px;
+    border-style:dotted;
+    color:green;
+    font-family:Arial;
+}
+
+TEXTAREA.XP  {
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    color:green;
+    font-family:Arial;
+    font-size:     9pt;
+}
+
+TEXTAREA.XPLOCK  {
+    border-style:groove;
+    border-width:1px;
+    border-color:#336699;
+    background-color: #F0F0F0;
+    color:green;
+    font-family:Arial;
+}
+
+.REPORT_MAIN_BORDER {
+    border-style:solid;
+    border-width:2px;
+    border-color:#003399;
+}
+
+.REPORT_CELL_BORDER {
+    border-style:solid;
+    border-width:1px;
+    border-color:#C0C0C0;
+}
+
+/*border-top-width
+border-right-width
+border-bottom-width
+border-left-width
+border-width
+border-color
+*/
+
+@media print {
+    BODY.fundo-sembolha {
+        background-attachment: scroll;
+        background-repeat: repeat-x;
+        background-position: top;
+    }
+
+    .naoVisivelImpressao {
+        display: none;
+    }
+
+    .visivelImpressao {
+        display: run-in;
+    }
+
+    A:link    { color: #000000; font-weight: none; text-decoration: none}
+    /* visited links   */
+    A:visited { color: #000000; font-weight: none; text-decoration: none}
+    /* user hovers     */
+    A:hover   { color: #000000; font-weight: none; text-decoration: none}
+    /* active links    */
+    A:active  { color: #000000; font-weight: none; text-decoration: none}
+
+    FONT.class_table {
+        font-size: 8px;
+        font-family: tahoma;
+    }
+
+    FONT.rodape_classTable {
+        font-size: 6px;
+        font-family: tahoma;
+    }
+
+    FONT.titulo_classTable {
+        font-size: 12px;
+        font-family: tahoma;
+    }
+
+    FONT.titCol_classTable {
+        font-size: 10px;
+        font-family: tahoma;
+    }
+}
+
+@media screen {
+    BODY.fundo-sembolha {
+        background-attachment: scroll;
+        background-color: #C8D0FF;
+        /*background-color: #F0F0F0;*/
+        /*background-image: url(https://desenv.unilasalle.edu.br/portal/modulos/temas/comum/images/back-sembolha.jpg);*/
+        background-repeat: repeat-x;
+        background-position: top;
+    }
+}
+
+BODY.fundoBranco{
+    background-color:#FFFFFF;
+}
+
+TD.mostraCorFundo{
+    background-color: transparent;
+}
+
+.menu {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000033;
+    background-color: #CFCFCF;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.menu-sel {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tb-conteudo {
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+}
+
+.conteudo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    color: #000033;
+    background-color: transparent;
+    padding: 5px;
+    overflow: auto;
+}
+
+.conteudo td {
+    background-color: transparent;
+}
