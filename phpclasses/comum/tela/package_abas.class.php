@@ -222,12 +222,12 @@
         {
             $mensagem = $this->retornaMensagens($tipo);
             if (trim($estilo) == '') {
-                $estilo = " style='{background-color:white;"
+                $estilo = " style='background-color:white;"
                                  ." top:30%; left:30%; "
                                  ." position: absolute;"
                                  ." border: 1px solid black;"
                                  ." width: ".$this->largura."px; height:".$this->altura."px;"
-                                 ." overflow:auto;}'";
+                                 ." overflow:auto;'";
             } else {
                 $estilo = " ".$estilo;
             }
@@ -248,14 +248,14 @@
                 ."\n</script>";
 
             echo "\n<div ".$estilo.$idStr.">";
-            echo "\n    <table border=0 cellpadding=0 cellspacing=0 style='{width: 100%;}'>";
+            echo "\n    <table border=0 cellpadding=0 cellspacing=0 style='width: 100%;'>";
             echo "\n        <tr>";
-            echo "\n            <td style='{text-align: center;}'>";
+            echo "\n            <td style='text-align: center;'>";
             echo "\n            <br><input class='BUTTON' name='fecha' value='Fechar' type='button' onClick=\"getElementById('".$id."').style.display = 'none';\"><br>";
             echo "\n            </td>";
             echo "\n        </tr>";
             echo "\n        <tr>";
-            echo "\n            <td style='{text-align: justify; padding: 2em;}'>";
+            echo "\n            <td style='text-align: justify; padding: 2em;'>";
             echo "\n            ".$mensagem;
             echo "\n            </td>";
             echo "\n        </tr>";
@@ -422,7 +422,7 @@
             if (trim($estilo) != "") {
                 $this->estilo = $estilo;
             } else {
-                $this->estilo = "style='{width: 100%; height: 100%;}'";
+                $this->estilo = "style='width: 100%; height: 100%;'";
             }
         }
 
@@ -618,7 +618,7 @@
 
                 $codHtml = "";
                 $codHtml .= "\n <div ".$this->estilo.$classeImpressao.">";
-                $codHtml .= "\n <table align='center' border=0 cellpadding=2 cellspacing=2 style='{width: 100%; height:100%;}'>";
+                $codHtml .= "\n <table align='center' border=0 cellpadding=2 cellspacing=2 style='width: 100%; height:100%;'>";
 
                 /**
                  * Varrendo Linhas
@@ -1125,7 +1125,7 @@
         function setaLegenda($exibe=true, $legenda = '')
         {
             if (trim($legenda) == '') {
-                $legenda = "<p style='{color: red;}'>* Dados Obrigatórios</p>";
+                $legenda = "<p style='color: red;'>* Dados Obrigatórios</p>";
             }
             $this->legenda = $legenda;
             $this->exibeLegenda = $exibe;
@@ -1518,8 +1518,8 @@
             // Definindo algumas variáveis para controle interno
             $arrayCodigoAba = array();
             $codigoTDs = "";
-            $htmlTitulo = "<p style='{font-size: 14px; text-align: center; vertical-align: middle;}'><b><label class='xptitle'>".$this->titulo."</label></b></p>";
-            $estiloCelulaTitulo = "style='{vertical-align: middle; text-align: center;}'";
+            $htmlTitulo = "<p style='font-size: 14px; text-align: center; vertical-align: middle;'><b><label class='xptitle'>".$this->titulo."</label></b></p>";
+            $estiloCelulaTitulo = "style='vertical-align: middle; text-align: center;'";
 
             $alturaLinhaTitulo = 25;
             $alturaLinhaLegenda = 25;
@@ -1588,25 +1588,25 @@
                 $this->codigoHTML .= " name='".$this->nome."' action='".$this->url."' method='".$this->metodo."'>";
             }
 
-            $this->codigoHTML .= "\n    <table class='cadastro' cellspacing='10' cellpadding='0' border='0' style='{border: 1px dotted #999; width: ".$this->largura."px; height: ".$this->altura."px;}'>";
+            $this->codigoHTML .= "\n    <table class='cadastro' cellspacing='10' cellpadding='0' border='0' style='border: 1px dotted #999; width: ".$this->largura."px; height: ".$this->altura."px;'>";
 
-            $this->codigoHTML .= "\n        <tr style='{width: ".$this->largura."px; height: ".$alturaLinhaTitulo."px;}'>";
-            $this->codigoHTML .= "\n            <td colspan='".$this->qtdAbas."' class='cadastro_cabecalho' style='{vertical-align: middle; text-align: center;}'>".$htmlTitulo."</td>";
+            $this->codigoHTML .= "\n        <tr style='width: ".$this->largura."px; height: ".$alturaLinhaTitulo."px;}'>";
+            $this->codigoHTML .= "\n            <td colspan='".$this->qtdAbas."' class='cadastro_cabecalho' style='vertical-align: middle; text-align: center;'>".$htmlTitulo."</td>";
             $this->codigoHTML .= "\n        </tr>";
 
             if ($alturaLinhaAba > 0) {
-                $this->codigoHTML .= "\n        <tr style='{width: ".$this->largura."px; height: ".$alturaLinhaAba."px;}'>";
+                $this->codigoHTML .= "\n        <tr style='width: ".$this->largura."px; height: ".$alturaLinhaAba."px;'>";
                 $this->codigoHTML .= $codigoTDs;
                 $this->codigoHTML .= "\n        </tr>";
             }
 
             //$this->codigoHTML .= "\n        <tr class='conteudo' style='{width: ".$this->largura."px; height: ".$alturaCorpo."px; overflow: auto;}'>";
-            $this->codigoHTML .= "\n        <tr style='{width: ".$this->largura."px; height: ".$alturaCorpo."px; overflow: auto;}'>";
+            $this->codigoHTML .= "\n        <tr style='width: ".$this->largura."px; height: ".$alturaCorpo."px; overflow: auto;'>";
             //$this->codigoHTML .= "\n            <td class='conteudo' colspan='".$this->qtdAbas."' valign='top'>";
             $this->codigoHTML .= "\n            <td class='mostraCorFundo' colspan='".$this->qtdAbas."' valign='top'>";
 
             foreach($arrayCodigoAba as $nomeAbaAtual => $codigoAbaHTML) {
-                $this->codigoHTML .= "\n                <div id='div_".$nomeAbaAtual."' style='{display: ".$modoDisplay."; height: ".$alturaCorpo."px;}'>";
+                $this->codigoHTML .= "\n                <div id='div_".$nomeAbaAtual."' style='display: ".$modoDisplay."; height: ".$alturaCorpo."px;'>";
                 $this->codigoHTML .= $codigoAbaHTML;
                 $this->codigoHTML .= "\n                </div>";
             }
@@ -1616,14 +1616,14 @@
 
             if ($this->exibeBarraBotoes == true) {
 
-                $this->codigoHTML .= "\n        <tr class='naoVisivelImpressao' style='{width: ".$this->largura."px; height: ".$alturaLinhaBarraPadrao."px;}'>";
-                $this->codigoHTML .= "\n            <td class='tb-conteudo' colspan=".$this->qtdAbas." valign='top' style='{border-top: 1px dotted #999; padding:5px; vertical-align: middle;}'>";
+                $this->codigoHTML .= "\n        <tr class='naoVisivelImpressao' style='width: ".$this->largura."px; height: ".$alturaLinhaBarraPadrao."px;'>";
+                $this->codigoHTML .= "\n            <td class='tb-conteudo' colspan=".$this->qtdAbas." valign='top' style='border-top: 1px dotted #999; padding:5px; vertical-align: middle;'>";
 
                 foreach ($this->botao as $chaveBotao => $dadosBotao) {
                     extract($dadosBotao);
                     $estiloBotao = "height: ".$alturaBotao."px; width: ".$larguraBotao."px;";
                     if ($exibe === true) {
-                        $this->codigoHTML .= "\n <input class='BUTTON_ABAS' name='".$nomeInput."' value='".$texto."' style='{font-size: ".$tamanhoFonte."pt; float:left; margin-left:5px; ".$estiloBotao."}' type='".$tipoBotao."' ".$evento.">";
+                        $this->codigoHTML .= "\n <input class='BUTTON_ABAS' name='".$nomeInput."' value='".$texto."' style='font-size: ".$tamanhoFonte."pt; float:left; margin-left:5px; ".$estiloBotao."' type='".$tipoBotao."' ".$evento.">";
                     }
                     unset($texto, $tamanhoFonte, $nomeInput, $nomeFigura, $exibe, $alturaBotao, $larguraBotao);
                 }

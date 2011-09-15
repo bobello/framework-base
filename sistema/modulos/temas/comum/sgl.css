@@ -1,0 +1,64 @@
+.fundo-bolha {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-attachment: scroll;
+	background-color: #C8D0FF;
+	/*background-image: url(https://desenv.unilasalle.edu.br/portal/modulos/temas/comum/images/back-bolha.jpg);*/
+	background-repeat: repeat-x;
+	background-position: top;
+	/*overflow: hidden;*/
+}
+
+.fundo-sembolha {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-attachment: scroll;
+	background-color: #C8D0FF;
+	/*background-image: url(images/back-sembolha.jpg);*/
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.tabela-azul-escuro {
+	border: 0px none;	
+ 	background-color: #617AA3;
+}
+
+.tabela-azul0-claro {
+	border: 0px none;
+	background-color: #C8D0FF;
+	background-image: url(../imagens/back-sembolha.jpg);
+}
+
+.negrito {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+	background-color: #C8D0FF;
+}
+	
+a.menu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+	
+a.menu:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.menu:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000099;
+	text-decoration:underline
+}

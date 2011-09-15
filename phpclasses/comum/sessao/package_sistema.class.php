@@ -729,9 +729,9 @@ class login {
         echo "\n		<link rel=StyleSheet href=\"".$linkStilo."\" type=\"text/css\">";
         echo "\n	</head>";
         echo "\n	<body onload=\"document.logar.l_user.focus()\" class=fundo-sembolha>";
-        echo "\n		<table border=0 cellpadding=0 cellspacing=0 align=left width='100%' style='{".$style."}'>";
+        echo "\n		<table border=0 cellpadding=0 cellspacing=0 align=left width='100%' style='".$style."'>";
         echo "\n			<tr>";
-        echo "\n				<td style='{".$style."}'>";
+        echo "\n				<td style='".$style."'>";
         echo "\n					<br /><br /><br /><br /><br /><br /><br />";
 
         $form = new form( "Login", "conn.php", "300" );
@@ -841,7 +841,7 @@ class alerta {
 
     function exibeAlerta($retorna=false, $fonte="arial", $tamanho="2", $cor="#000000", $style="") {
         $retorno = "";
-        $estilo = "STYLE='{background-color: #E4E4CB; border: 1px solid #4C6D9A; }'";
+        $estilo = "STYLE='background-color: #E4E4CB; border: 1px solid #4C6D9A; '";
 
         if (!$retorna) {
             if (trim($this->mensagem)!="") {

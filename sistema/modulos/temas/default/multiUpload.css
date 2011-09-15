@@ -1,0 +1,82 @@
+/**
+ * Base Stylesheet of multiUpload html documentation
+ * Doesn't need to be used in your projects
+ */
+
+/*div, p, span, a, input, label { font-family:'Lucida Sans Unicode','Lucida Sans','Trebuchet MS'; font-size:10pt; }
+h1, h2, h3, h4 { font-family:Georgia,'Trebuchet MS'; font-weight:normal; }
+h1 { font-size: 18pt; }
+h2 { font-size: 15pt; }
+h4 { font-weight:700; }
+a { color:#660000; }
+a:hover { color:#BB0000; }
+/*h4, p { margin:0; padding:0; }
+label { display:block; }*/
+
+.upload_actions { display:none; }
+
+#uploader { margin-bottom:8px;}
+
+#uploader_files {
+	font-family:"Lucida Sans Unicode","Lucida Sans","Trebuchet MS";
+	border:1px dotted #DDD;
+	background-color:#FAFAFA;
+	padding: 5px;
+	width:95%;
+	min-height:10px;
+	max-height:200px;
+	overflow-y:auto;
+}
+
+.c30p { width:37%; float:left; }
+.c100 { width:11%; float:left; }
+.normal { font-weight:normal; }
+.ac { text-align:center; }
+.sep { background-color:#DDD; height:1px; line-height:1px; font-size:1px; clear:both; margin:1px; }
+.btn_upload_img { 
+	width:20px;
+	height:20px;
+	padding:5px;
+	background:#E9E9E2;
+	font:11px Verdana, Geneva, sans-serif;
+	border:1px solid #666;
+	text-decoration:none;
+	font-weight:bold;
+	color:#5779AF !important;
+}
+.btn_upload_img:hover {
+	color:#333 !important;
+	border:1px solid #669;
+	text-shadow:1px 1px 1px #fff;
+	}
+.progress div {
+	background-color:#007700;
+	border-top:3px solid #fff;
+	border-bottom:3px solid #fff;
+	height:12px;
+	width:0%;
+	font-size:10px;
+	font-weight:700;
+	color:#fff;
+	text-align:center;
+}
+
+pre {
+	float:none;
+	font-weight:normal;
+	width:auto;
+	-moz-background-clip:border !important;
+	-moz-background-inline-policy:continuous !important;
+	-moz-background-origin:padding !important;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	background:#F5F4EE none repeat scroll 0 0 !important;
+	border:1px dotted #DDDDDD !important;
+	color:#06263C !important;
+	font-size:11px !important;
+	line-height:1.6 !important;
+	margin:0.8em 0 1.2em !important;
+	padding:5px !important;
+}

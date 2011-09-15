@@ -342,7 +342,7 @@ class mlForm extends mlStyleSheet{
 		
 		//Verify error messages (on code)
 		if ($this->errors > 0){
-			echo "<P ALIGN=LEFT STYLE='{border-style: solid; border-width:2px; border-color: RED; background-color: YELLOW; color: BLUE;}'><B>FORM ERROR</B>";
+			echo "<P ALIGN=LEFT STYLE='border-style: solid; border-width:2px; border-color: RED; background-color: YELLOW; color: BLUE;'><B>FORM ERROR</B>";
 			echo $this->errorMessage;
 			echo "</P>";
 			//exit;
@@ -350,11 +350,11 @@ class mlForm extends mlStyleSheet{
 			//$this->listObjects[$row][$column]
 			$form .= "\n<FORM NAME='".$this->name."' ACTION='".$this->action."' ".$this->target." METHOD='POST' ENCTYPE='".$this->enctype."'>";
 			
-			//$form .= "\n<TABLE CLASS='formDef' STYLE='{height: ".$this->height."px;}' width='".$this->width."'>";
+			//$form .= "\n<TABLE CLASS='formDef' STYLE='height: ".$this->height."px;' width='".$this->width."'>";
 			if ($this->_devMode){
-				$form .= "\n<TABLE BORDER=2 BORDERCOLOR=RED CLASS='formDef' STYLE='{height: ".$this->height."px;}' width='".$this->width."'>";
+				$form .= "\n<TABLE BORDER=2 BORDERCOLOR=RED CLASS='formDef' STYLE='height: ".$this->height."px;' width='".$this->width."'>";
 			}else{
-				$form .= "\n<TABLE BORDER=".$this->_borderTable." BORDERCOLOR=RED CLASS='formDef' STYLE='{height: ".$this->height."px;}' width='".$this->width."'>";
+				$form .= "\n<TABLE BORDER=".$this->_borderTable." BORDERCOLOR=RED CLASS='formDef' STYLE='height: ".$this->height."px;' width='".$this->width."'>";
 			}
 			
 			$form .= "\n<TR ";
@@ -952,7 +952,7 @@ class mlGrid extends mlField {
 		if ($this->counter['ACTIVE']) $cl++;
 	
 		if (is_integer($this->width)) $w = "width='".$this->width."'";
-		if (is_integer($this->height)) $h = "STYLE='{height: ".$this->height."px;}'";
+		if (is_integer($this->height)) $h = "STYLE='height: ".$this->height."px;'";
 		$id="";
 		if($this->idTable!=""){$id = "id='".$this->idTable."'";}
 

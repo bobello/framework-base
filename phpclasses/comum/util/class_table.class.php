@@ -226,17 +226,17 @@ class trelatorio {
     {
         $type = strtoupper($type);
         if ($type == "HEADER") {
-            $this->columnHeaderFontAttributtes['OPEN']  = "<font style='{".
+            $this->columnHeaderFontAttributtes['OPEN']  = "<font style='".
                                     "font-family: ".$face."; ".
                                     "font-size: ".$size."pt; ".
-                                    "color: ".$color." }'>";
+                                    "color: ".$color." '>";
             $this->columnHeaderFontAttributtes['CLOSE'] = "</font>";
         }
         if ($type == "DETAIL") {
-            $this->columnDetailFontAttributtes['OPEN']  = "<font style='{".
+            $this->columnDetailFontAttributtes['OPEN']  = "<font style='".
                                     "font-family: ".$face."; ".
                                     "font-size: ".$size."pt; ".
-                                    "color: ".$color." }'>";
+                                    "color: ".$color." '>";
             $this->columnDetailFontAttributtes['CLOSE'] = "</font>";
         }
     }
@@ -532,7 +532,7 @@ class trelatorio {
                 }
 
                 if ($this->mostrar_grade){
-                    $tabela .= "\n<TABLE BORDER=1 CELLPADDING=1 ".$this->width." $vStyleBack style='{border-style: solid; border-width: 1px;}'>";
+                    $tabela .= "\n<TABLE BORDER=1 CELLPADDING=1 ".$this->width." $vStyleBack style='border-style: solid; border-width: 1px;'>";
                 }else{
                     $tabela .= "\n<TABLE BORDER=0 CELLPADDING=1 ".$this->width." $vStyleBack>";
                 }
@@ -937,7 +937,7 @@ class trelatorio {
 
         if (($this->mostrarLegenda != "") && (trim($this->intervaloCabecalho) == "") && ($num>=1))
         {
-            $this->mensagem_retorno = "<FONT style='{font-size:9; font-weight:normal;}'>".$this->mostrarLegenda."</FONT>";
+            $this->mensagem_retorno = "<FONT style='font-size:9; font-weight:normal;'>".$this->mostrarLegenda."</FONT>";
         }
         
         return $tabela;
